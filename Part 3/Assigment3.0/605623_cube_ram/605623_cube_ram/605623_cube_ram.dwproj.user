@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Group21HW Mart</Id>
+            <Name>Group21HW Mart</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAo+UZ5Kzxk+f2CpGrz+JbAAAAAAeAAAARwByAG8AdQBwADIAMQBIAFcAIABNAGEAcgB0AAAAEGYAAAABAAAgAAAA4mKfU9SyuM7a2quWOuari2StMszxhfD8GcsqjtREnjkAAAAADoAAAAACAAAgAAAAJJwxi01wBVovjWrDycZ7SfpEXn3FO9227DjI4I01BqgQAAAADjg8+S0Mb+g3K2LDh89WgEAAAACwTcCx6MQwoC0e8KtYCS6heiaX1FmhWksh4wlYtoiCYuTvoGTcpK/CtpGhs26H1D0cRxqhbXJ2MrY6kiCiyYEY</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Group21HW Mart 1</Id>
+            <Name>Group21HW Mart 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAo+UZ5Kzxk+f2CpGrz+JbAAAAAAiAAAARwByAG8AdQBwADIAMQBIAFcAIABNAGEAcgB0ACAAMQAAABBmAAAAAQAAIAAAANWMdE0VoAuHce6ij8oBdeURu4Cv+zVjbLhb/Y1Qd0bsAAAAAA6AAAAAAgAAIAAAALZ8gyBDo6RLbvQvUZp340W5Bi1rrCFBrpt7lqBhgdWvEAAAAC15sxbmZd8cx2i1UJWXanhAAAAAAgznhq9SFC6vBFgP7fxOCF1MWIooywzsbvkZAMKDfdx+sxByP4RvlsdD9ixfpP+/uKID1fhq0pS1EOKk0y/a4g==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Group21HW Mart</Id>
+            <Name>Group21HW Mart</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAo+UZ5Kzxk+f2CpGrz+JbAAAAAAeAAAARwByAG8AdQBwADIAMQBIAFcAIABNAGEAcgB0AAAAEGYAAAABAAAgAAAAM/SXNW3oOIjkyh6toNUHjRDwcgH8kj1hF/aQtoI1TNsAAAAADoAAAAACAAAgAAAAbssQOLSnA9psA4ezyLILaPxqwizkTvpTyhGLpX3lHCYQAAAArgoBXimdtuxahVfeCmaV+kAAAAAhwfs0YbpNaqw0h8KYNMIzSv5ZmzfA4mRuqjfka09QzkykBVUjT7t8OG5iM3jKha+zUvZo2rxLE6izgOwCGG9s</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Group21HW Mart 1</Id>
+            <Name>Group21HW Mart 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAo+UZ5Kzxk+f2CpGrz+JbAAAAAAiAAAARwByAG8AdQBwADIAMQBIAFcAIABNAGEAcgB0ACAAMQAAABBmAAAAAQAAIAAAAEkMKeOJeKc8alGYgEJztDAsr4GxKyIG71oskyFuuRcOAAAAAA6AAAAAAgAAIAAAAD5ie1lrYiZI9VikkIumhcDV+FfhfIdLJsEW/BQpjNvbEAAAAN622QsBUwwf7dGHfheky1xAAAAABg62Rj/O2J63AMUdMDyo3rpDK04axXdWzDX3bupU7R1FoYLAHTg+2VNU3Xshcdj1OaLYTh6ldNEJw+aH3OLnHw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>http://apa.di.unipi.it/olap/msmdpump.dll</TargetServer>
+        <TargetDatabase>605623_cube_ram</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

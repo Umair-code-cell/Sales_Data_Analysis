@@ -1,0 +1,8 @@
+with member country_sales as
+aggregate(([Geography].[GeoGer].currentmember.parent, [Ram Product].[Brand].[Brand]), [Measures].[Sales Usd])
+member perc as
+[Measures].[Sales Usd]/country_sales,
+format_string="percent"
+select {(perc), [Measures].[Sales Usd]} on columns,
+NON EMPTY{([Geography].[Country].[Country], [Geography].[GeoGer].[Region], [Ram Product].[Brand].[Brand])} on rows
+from [Group21HW Mart]

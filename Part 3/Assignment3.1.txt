@@ -1,0 +1,10 @@
+with member previous_month as
+sum(PARALLELPERIOD([Time].[TimeGer].[Month Name], 1), [Measures].[Sales Usd])
+member perc as
+([Measures].[Sales Usd]-previous_month)/100,
+format_string="percent"
+
+
+select {{[Measures].[Sales Usd]} AS current_month_sales, previous_month, perc} on columns,
+NON EMPTY([Ram Product].[Brand].[Brand], [Geography].[Country].[Country], [Time].[Year].[Year], [Time].[TimeGer].[Month Name]) on rows
+from [Group21HW Mart]

@@ -1,0 +1,10 @@
+with member sales_continent as
+(aggregate(([Geography].[GeoGer].currentmember, [Time].[Year].[Year], [Ram Product].[Memory Type].[Memory Type]), [Measures].[Sales Usd]))
+
+member perc as
+([Measures].[Sales Usd]/sales_continent), 
+format_string="percent"
+
+select {[Measures].[Sales Usd], perc} on axis(0),
+filter(([Geography].[GeoGer].[Continent], [Time].[Year].[Year], [Ram Product].[Memory Type].[Memory Type]), perc>0.1) on rows
+from [Group21HW Mart]

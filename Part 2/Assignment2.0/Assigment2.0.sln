@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Assigment2.0", "Assigment2.0\Assigment2.0.dtproj", "{12B3226A-AD39-493B-8342-8D3C7B7D6371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Default = Azure|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B3226A-AD39-493B-8342-8D3C7B7D6371}.Azure|Default.ActiveCfg = Azure
+		{12B3226A-AD39-493B-8342-8D3C7B7D6371}.Azure|Default.Build.0 = Azure
+		{12B3226A-AD39-493B-8342-8D3C7B7D6371}.Development|Default.ActiveCfg = Development
+		{12B3226A-AD39-493B-8342-8D3C7B7D6371}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA9BA996-418F-4437-86C5-00532AF9F538}
+	EndGlobalSection
+EndGlobal

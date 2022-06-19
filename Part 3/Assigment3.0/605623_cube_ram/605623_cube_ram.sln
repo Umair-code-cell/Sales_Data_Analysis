@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "605623_cube_ram", "605623_cube_ram\605623_cube_ram.dwproj", "{EBB4AB29-E2C2-4C00-9862-102591FBA9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB4AB29-E2C2-4C00-9862-102591FBA9BE}.Development|Default.ActiveCfg = Development
+		{EBB4AB29-E2C2-4C00-9862-102591FBA9BE}.Development|Default.Build.0 = Development
+		{EBB4AB29-E2C2-4C00-9862-102591FBA9BE}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB47B367-40A9-4DE9-A901-7ABAE3C731FA}
+	EndGlobalSection
+EndGlobal
