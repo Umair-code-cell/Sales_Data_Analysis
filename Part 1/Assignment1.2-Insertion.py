@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 23 11:59:20 2020
 
-@author: Riccardo
-"""
 
 import pyodbc
 import csv
