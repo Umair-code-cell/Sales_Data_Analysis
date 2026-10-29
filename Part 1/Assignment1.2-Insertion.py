@@ -6,9 +6,9 @@ import datetime
 
 #Set up the connection
 server = 'tcp:apa.di.unipi.it' 
-database = 'Group21HWMart' 
-username = 'group21' 
-password = 'z0sqm' 
+database = '' 
+username = '' 
+password = '' 
 connectionString = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password
 
 #Geography CASE
